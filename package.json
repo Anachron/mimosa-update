@@ -1,0 +1,35 @@
+{
+  "name": "mimosa-update",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Anachron/mimosa-update",
+  "author": "Anachron",
+  "description": "Mimosa 2.x.x module for updating your npm and bower-dependencies and pushing those updates back to bower.json and package.json",
+  "contributors": [
+    {
+      "name": "Anachron",
+      "email": "Anachron14@hotmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Anachron/mimosa-update"
+  },
+  "keywords": [
+    "mimosa",
+    "mmodule",
+    "update",
+    "bower",
+    "package"
+  ],
+  "dependencies": {
+    
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "main": "./src/index",
+  "scripts": {
+    "prepublish": "mimosa build"
+  }
+}
